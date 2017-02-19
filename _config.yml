@@ -40,4 +40,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-image: /public/twitter-blue.png
+author-image: /public/clint.jpg

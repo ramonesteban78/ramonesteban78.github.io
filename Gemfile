@@ -26,10 +26,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'jekyll-paginate'
+
 # **************************************************
 # Estos son mis plugins
 # Genera un archivo sitemap para el robot de Google
 gem 'jekyll-sitemap'
 # Establece una imagen por defecto para mis posts
 gem 'jekyll-auto-image'
-# Nuevo tema para mi blog
+

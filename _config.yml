@@ -39,3 +39,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+image: /public/twitter-blue.png

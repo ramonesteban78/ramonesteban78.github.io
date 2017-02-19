@@ -41,3 +41,4 @@ exclude:
   - Gemfile.lock
 
 author-image: /public/clint.jpg
+twitter-image: /public/clinttwitter.jpg

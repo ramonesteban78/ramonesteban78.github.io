@@ -17,8 +17,7 @@ title: Blog Ramon Esteban
 permalink: none
 email: wantedforcode@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a 
-  prominent sidebar with uncomplicated content
+  Thoughts and experience of a constant aprentice of .Net, Xamarin, C# and F#
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ramonesteban78.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter: ramonesteban78
@@ -39,6 +38,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _posts/2012-02-06-whats-jekyll.md
+  - _posts/2013-12-28-introducing-hyde.md
 
 author-image: /public/clint.jpg
 twitter-image: /public/clinttwitter.jpg

@@ -39,9 +39,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _posts/2012-02-06-whats-jekyll.md
+  - _posts/2012-02-07-example-content.md
   - _posts/2013-12-28-introducing-hyde.md
-  - _post/2017-02-20-mvvmcross-tips-advices.1.md
-  - _post/2017-02-26-xamarin-forms-and-reactiveui-adventures-part-1.md
 
 author-image: /public/clint.jpg
 twitter-image: /public/clinttwitter.jpg

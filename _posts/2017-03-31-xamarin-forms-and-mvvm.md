@@ -6,7 +6,7 @@ categories: es tutorials mvvm
 
 ## Introducción
 
-Debido al [webinar](LINK DEL WEBINAR DE MICROSOFT){:target="_blank"} que he dado recientemente, he decidido crear un post sobre el tema para todo aquel que le pueda interesar repasar MVVM utilizado en Xamarin.Forms.
+Debido al [webinar](https://info.microsoft.com/WE-EAD-WBNR-FY17-03Mar-31-Sesin2Xamarin.FormsyMvvm_305428_01Registration-ForminBody.html){:target="_blank"} que he dado recientemente, he decidido crear un post sobre el tema para todo aquel que le pueda interesar repasar MVVM utilizado en Xamarin.Forms.
 
 La mayoría de las empresas dedicadas al desarrollo de aplicaciones de escritorio, Xamarin, Windows 10, etc, han adoptado el patrón MVVM como base del desarrollo sus aplicaciones. Por eso es muy importante adquirir los conceptos básicos del mismo.
 
@@ -260,7 +260,7 @@ Converter={StaticResource okWrongConverter}}"></Image>
 
 ## Conclusión
 
-Hemos revisado los conceptos básicos de MVVM y como aplicarlos en una aplicación Xamarin.Forms. Os dejo el enlace de [Github](ENLACE A MI REPOSITORIO DE GITHUB){:target="_blank"} con el código en el que está basado el post. Echad un vistazo para profundizar un poco más en los conceptos de MVVM.
+Hemos revisado los conceptos básicos de MVVM y como aplicarlos en una aplicación Xamarin.Forms. Os dejo el enlace de [Github](https://github.com/ramonesteban78/XamFormsMarvel){:target="_blank"} con el código en el que está basado el post. Echad un vistazo para profundizar un poco más en los conceptos de MVVM.
 
 ## Framewroks existentes de Mvvm que podemos usar con Forms
 

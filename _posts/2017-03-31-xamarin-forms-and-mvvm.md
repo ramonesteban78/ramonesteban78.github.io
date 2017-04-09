@@ -22,7 +22,7 @@ Representa la capa de datos y la lógica de negocio de nuestra app. También es 
 
 ### View
 
-Interfaz de usuario o Vistas de nuestra app. En Xamarin.Forms podemos crear interfaces de usuario con XMAL o con C#. En nuestro caso utilizaremos XMAL para diferenciar bien la interfaz de usuario de la lógica de presentación (ViewModel).
+Interfaz de usuario o Vistas de nuestra app. En Xamarin.Forms podemos crear interfaces de usuario con XAML o con C#. En nuestro caso utilizaremos XAML para diferenciar bien la interfaz de usuario de la lógica de presentación (ViewModel).
 
 ### ViewModel
 
@@ -91,7 +91,7 @@ public string Title {
 }
 ```
 ```html
-// Binding en nuestro archivo XMAL
+// Binding en nuestro archivo XAML
 <Entry Text="{Binding Title}" />
 ```
 
@@ -113,7 +113,7 @@ public string Title {
 }
 ```
 ```html
-// Binding en nuestro archivo XMAL
+// Binding en nuestro archivo XAML
 <Entry Text="{Binding Title, Mode=TwoWay}" />
 ```
 
@@ -148,7 +148,7 @@ private bool CanExecuteSearchByNameCommand()
 }
 ```
 ```html
-// Command binding en nuestro archivo XMAL
+// Command binding en nuestro archivo XAML
 <SearchBar Text="{Binding SearchText}" 
 SearchCommand="{Binding SearchByNameCommand}"></SearchBar> 
 ```
@@ -169,7 +169,7 @@ En cuestión de proyectos podemos distinguir los siguientes:
 Analizemos ahora en concreto el proyecto Core. Estas son las carpetas a las que tenemos dar importancia:
 - Models - Nuestros modelos de datos
 - ViewModels - Tendremos un ViewModel por Vista
-- Views - Archivos XMAL con la interfaz de usuario
+- Views - Archivos XAML con la interfaz de usuario
 
 ### BaseViewModel
 
@@ -245,7 +245,7 @@ public class DescriptionToImageValueConverter : IValueConverter
 }
 ```
 
-En el caso de nuestra Vista XMAL, los converters deben de ser declarados como recursos estáticos de nuestro ContentView o ContentPage, y después utilizarlos en el Binding:
+En el caso de nuestra Vista XAML, los converters deben de ser declarados como recursos estáticos de nuestro ContentView o ContentPage, y después utilizarlos en el Binding:
 
 ```xml
 <ContentView.Resources>
@@ -289,7 +289,7 @@ La utilización de Mvvm muchas veces nos lleva al error de crear todas las propi
 public string Title { get; private set; }
 ```
 ```html
-// Binding en nuestro archivo XMAL
+// Binding en nuestro archivo XAML
 <Entry Text="Binding Title"/>
 ```
 
@@ -305,4 +305,4 @@ Existe otra forma de comunicación entre la Vista y los ViewModels que es usando
 
 ### Code Behind or not Code Behind
 
-La mayoría de los programadores que usan MVVM no les gusta nada tener código en la clase parcial de nuestro XMAL (code-behind). Aunque esto es posible llevarlo a cabo, a través de `Triggers` o `Behaviours`, en mi opinión da lugar a un XMAL que es dificil de mantener y entender en un primer vistazo. Yo personalmente prefiero utilizar el code-behind e implemntar en el acciones específicas de la Vista, como animaciones, posición de un scroll, etc. Esto da lugar a un XMAL con prácticamente Binding y estilos más mantenible y conciso en un primer vistazo.
+La mayoría de los programadores que usan MVVM no les gusta nada tener código en la clase parcial de nuestro XAML (code-behind). Aunque esto es posible llevarlo a cabo, a través de `Triggers` o `Behaviours`, en mi opinión da lugar a un XAML que es dificil de mantener y entender en un primer vistazo. Yo personalmente prefiero utilizar el code-behind e implemntar en el acciones específicas de la Vista, como animaciones, posición de un scroll, etc. Esto da lugar a un XAML con prácticamente Binding y estilos más mantenible y conciso en un primer vistazo.

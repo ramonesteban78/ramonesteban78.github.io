@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Xamarin.Forms y Mvvm
+categories: es tutorials mvvm
 ---
 
 ## Introducción

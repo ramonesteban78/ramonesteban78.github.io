@@ -1,7 +1,6 @@
 ---
 layout: post
 title: RockMvvmForms, I know.. another mvvm framework for Xamarin.Forms but...
-categories: en frameworks
 ---
 
 ## Intro

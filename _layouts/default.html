@@ -10,6 +10,8 @@
     <div class="content container">
       {{ content }}
     </div>
-
+    {% if site.url != "http://localhost:4000" %}
+    {% include analytics.html %}
+    {% endif %}
   </body>
 </html>

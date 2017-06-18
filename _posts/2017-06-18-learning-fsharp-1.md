@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSharp FSharp wars. Kata - Are they same?
+title: Aprendiendo F# - Parte 1. Kata - Are they same?
 categories: es tutorials 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C# F# wars. Kata - Are they same?
+title: CSharp FSharp wars. Kata - Are they same?
 categories: es tutorials 
 ---
 

@@ -10,7 +10,7 @@ No se si os ha ocurrido, que cuando inicias un proyecto, normalmente te pasan lo
 
 En estos casos, yo suelo hacerme un proyecto de Test de Integración con Xamarin.iOS, para ir probando los modelos o posibles excepciones que pueda devolver el Web Api. Pero antes de avanzar en como montar tu proyecto de Tests de integración paso a paso, me guataría exoplicaros el porque de elegir **xUnit** y el porque de un proyecto de Unit Test de Xamarin.iOS:
 
-## ¿Por qué un proyecto de Unit Test con Xamarin.iOS?
+## ¿Por qué un proyecto de Test de integración con Xamarin.iOS?
 
 ¿Por qué no utilizar una PCL para probar los end points? Bien, es una decisión provocada por la librería que estoy usando para realizar mis llamadas a los endpoints: [Refit](https://github.com/paulcbetts/refit){:target="_blank"}.
 
@@ -22,7 +22,7 @@ En estos casos, yo suelo hacerme un proyecto de Test de Integración con Xamarin
 
 La razón es muy sencilla, la librería NUnitLite que utiliza Xamarin para estos proyectos no soporta *async/await*, podéis encontrar má info aquí al respecto: [Deadlock in NUnit test](https://forums.xamarin.com/discussion/14175/deadlock-in-nunit-test){:target="_blank"}.
 
-## Como montar el proyecto Unit Test Xamarin iOS con xUnit
+## Como montar el proyecto de Tests de integración Xamarin iOS con xUnit
 
 Es muy simple, tan solo tenemos que crear un proyecto **Xamarin.iOS** vacio e instalar los siguientes paquetes de Nuget:
 

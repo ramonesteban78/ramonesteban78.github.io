@@ -6,7 +6,7 @@ categories: es tutorial
 
 Con el paso del tiempo, estoy apreciando cada dia más macOX como entorno de trabajo y desarrollo debido a gran parte a su estabilidad como OS, y porque si eres desarrollador de aplicaciones multiplataforma, es el entorno ideal para trabajar, a no ser que tengas Windows Phone o Windows 10 como target en el desarrollo del proyecto, lo cual ocurre muy eventualmente para seros sinceros. Pero bueno, este no es un post para ver que OS es mejor, si macOX o Windows. El mejor es el que más te guste.
 
-El objetivo de este post es como preparar Visual Studio Code en Mac para desarrollar con FSharp. 
+El objetivo de este post es como preparar Visual Studio Code en Mac para desarrollar con F#. 
 
 Para comenzar a trabjar con FSharp con Visual Studio Code hay que instalar [Ionide](http://ionide.io/){:target="_blank"}. Hay tres paquetes que debemos instalar, **Ionide-fsharp**, **Ionide-Paket** y **Ionide-Fake**: 
 

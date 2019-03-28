@@ -8,7 +8,7 @@ title: RockMvvmForms, I know.. another mvvm framework for Xamarin.Forms but...
 - <a href="itimekeep://home">Open the app</a>
 - <a href="https://itimekeep.app.link/addtime">https://itimekeep.app.link/addtime</a>
 - <a href="https://itimekeep.app.link/mytime">https://itimekeep.app.link/mytime</a>
-- <a href="https://itimekeep.app.link/timecard/I-30-15718-155715">https://itimekeep.app.link/timecard/I-30-15718-155715</a>
+- <a href="https://itimekeep.app.link/timecard?id=I-30-15718-155715">https://itimekeep.app.link/timecard?id=I-30-15718-155715</a>
 
 I want to make an introduction to RockMvvmForms, a very simple framework I've created to develop our Xamarin.Forms projects.
 

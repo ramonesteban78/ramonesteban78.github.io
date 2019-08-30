@@ -11,11 +11,11 @@ title: RockMvvmForms, I know.. another mvvm framework for Xamarin.Forms but...
 - <a href="https://itimekeep.app.link/timecard?id=I-30-15718-155715">https://itimekeep.app.link/timecard?id=I-30-15718-155715</a>
 - <a href="https://itimekeep.app.link/timecard?id=1111">https://itimekeep.app.link/timecard?id=1111</a>
 - <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/settings</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/dashboard?periodmode=weekly&period=current</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/dashboard?periodmode=weekly&period=previous</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/dashboard?periodmode=monthly&period=previous</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/dashboard?periodmode=monthly&period=current</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/dashboard?periodmode=yearly&period=current</a>
+- <a href="https://itimekeep.app.link/dashboard?periodmode=weekly&period=current">Dashboard Weekly Current</a>
+- <a href="https://itimekeep.app.link/dashboard?periodmode=weekly&period=previous">Dashboard Weekly Previous</a>
+- <a href="https://itimekeep.app.link/dashboard?periodmode=monthly&period=previous">Dashboard Monthly Previous</a>
+- <a href="https://itimekeep.app.link/dashboard?periodmode=monthly&period=current">Dashboard Monthly Current</a>
+- <a href="https://itimekeep.app.link/dashboard?periodmode=yearly&period=current">Dashboard Yearly Current</a>
 
 I want to make an introduction to RockMvvmForms, a very simple framework I've created to develop our Xamarin.Forms projects.
 

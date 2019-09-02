@@ -16,6 +16,8 @@ title: RockMvvmForms, I know.. another mvvm framework for Xamarin.Forms but...
 - <a href="https://itimekeep.app.link/dashboard?periodmode=monthly&period=previous">Dashboard Monthly Previous</a>
 - <a href="https://itimekeep.app.link/dashboard?periodmode=monthly&period=current">Dashboard Monthly Current</a>
 - <a href="https://itimekeep.app.link/dashboard?periodmode=yearly&period=current">Dashboard Yearly Current</a>
+- <a href="https://itimekeep.app.link/missingtime?periodmode=monthly">Missing Time Current Month</a>
+- <a href="https://itimekeep.app.link/missingtime?periodmode=weekly">Missing Time Current Week</a>
 
 I want to make an introduction to RockMvvmForms, a very simple framework I've created to develop our Xamarin.Forms projects.
 

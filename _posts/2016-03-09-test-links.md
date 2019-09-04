@@ -21,3 +21,4 @@ title: Link tests
 - <a href="https://itimekeep.app.link/missingtime?period=week">Missing Time Current Week</a>
 - <a href="https://itimekeep.app.link/missingtime?period=yesterday">Missing Time From Yesterday</a>
 - <a href="https://itimekeep.app.link/score">Time Score Detail</a>
+- <a href="https://itimekeep.app.link/releasetime">Release Time</a>

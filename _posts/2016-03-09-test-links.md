@@ -22,3 +22,6 @@ title: Link tests
 - <a href="https://itimekeep.app.link/missingtime?period=yesterday">Missing Time From Yesterday</a>
 - <a href="https://itimekeep.app.link/score">Time Score Detail</a>
 - <a href="https://itimekeep.app.link/releasetime">Release Time</a>
+- <a href="https://itimekeep.app.link/my-time-filter?period=today">My Time filtered for Today</a>
+- <a href="https://itimekeep.app.link/my-time-filter?period=last7">My Time filtered for last 7 days</a>
+- <a href="https://itimekeep.app.link/my-time-filter?period=last14">My Time filtered for last 14 days</a>

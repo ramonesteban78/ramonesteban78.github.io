@@ -25,3 +25,10 @@ title: Link tests
 - <a href="https://itimekeep.app.link/mytime?period=today">My Time filtered for Today</a>
 - <a href="https://itimekeep.app.link/mytime?period=last7">My Time filtered for last 7 days</a>
 - <a href="https://itimekeep.app.link/mytime?period=last14">My Time filtered for last 14 days</a>
+- <a href="https://itimekeep.app.link/mytime?status=errors">My Time filtered for errors</a>
+- <a href="https://itimekeep.app.link/mytime?status=drafts">My Time filtered for drafts</a>
+- <a href="https://itimekeep.app.link/mytime?status=drafts_without_matter">My Time filtered for drafts without matters</a>
+- <a href="https://itimekeep.app.link/mytime?status=submitted">My Time filtered for submitted</a>
+- <a href="https://itimekeep.app.link/mytime?status=timers">My Time filtered for active timers</a>
+- <a href="https://itimekeep.app.link/mytime?status=final">My Time filtered for final</a>
+- <a href="https://itimekeep.app.link/mytime?status=final&period=today">My Time filtered for today's final</a>

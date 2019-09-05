@@ -33,3 +33,4 @@ title: Link tests
 - <a href="https://itimekeep.app.link/mytime?status=final&period=today">My Time filtered for today's final</a>
 - <a href="https://itimekeep.app.link/mytime?matter=1000">My Time filtered by Matter error</a>
 - <a href="https://itimekeep.app.link/mytime?matter=34">My Time filtered by Matter 34</a>
+- <a href="https://itimekeep.app.link/submit-drafts">Submit Drafts</a>

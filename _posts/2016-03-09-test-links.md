@@ -5,12 +5,11 @@ title: Link tests
 
 ## Intro
 
-- <a href="itimekeep://home">Open the app</a>
-- <a href="https://itimekeep.app.link/addtime">https://itimekeep.app.link/addtime</a>
-- <a href="https://itimekeep.app.link/mytime">https://itimekeep.app.link/mytime</a>
-- <a href="https://itimekeep.app.link/timecard?id=I-30-15718-155715">https://itimekeep.app.link/timecard?id=I-30-15718-155715</a>
-- <a href="https://itimekeep.app.link/timecard?id=1111">https://itimekeep.app.link/timecard?id=1111</a>
-- <a href="https://itimekeep.app.link/settings">https://itimekeep.app.link/settings</a>
+- <a href="https://itimekeep.app.link/addtime">Add new time card</a>
+- <a href="https://itimekeep.app.link/mytime">My time</a>
+- <a href="https://itimekeep.app.link/timecard?id=I-30-15718-155715">Go to time card: I-30-15718-155715</a>
+- <a href="https://itimekeep.app.link/timecard?id=1111">Go to time card: 1111 (Test no permissions to see the Time Card)</a>
+- <a href="https://itimekeep.app.link/settings">Settings</a>
 - <a href="https://itimekeep.app.link/dashboard?periodmode=weekly&period=current">Dashboard Weekly Current</a>
 - <a href="https://itimekeep.app.link/dashboard?periodmode=weekly&period=previous">Dashboard Weekly Previous</a>
 - <a href="https://itimekeep.app.link/dashboard?periodmode=monthly&period=previous">Dashboard Monthly Previous</a>
@@ -32,3 +31,5 @@ title: Link tests
 - <a href="https://itimekeep.app.link/mytime?status=timers">My Time filtered for active timers</a>
 - <a href="https://itimekeep.app.link/mytime?status=final">My Time filtered for final</a>
 - <a href="https://itimekeep.app.link/mytime?status=final&period=today">My Time filtered for today's final</a>
+- <a href="https://itimekeep.app.link/mytime?matter=1000">My Time filtered by Matter error</a>
+- <a href="https://itimekeep.app.link/mytime?matter=34">My Time filtered by Matter 34</a>

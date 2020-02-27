@@ -3,8 +3,6 @@ layout: post
 title: Link tests
 ---
 
-## Intro
-
 # Available quick links to test (DEVELOPMENT)
 
 - <a href="https://itimekeep.test-app.link/addtime">Add new time card</a>
@@ -37,6 +35,8 @@ title: Link tests
 - <a href="https://itimekeep.test-app.link/mytime?matter=34">My Time filtered by Matter 34</a>
 - <a href="https://itimekeep.test-app.link/submit-drafts">Submit Drafts</a>
 - <a href="https://itimekeep.test-app.link/my-assistants">My Assistants</a>
+- <a href="https://itimekeep.test-app.link/myshortcuts">My Shortcuts</a> (available in 19.5)
+- <a href="https://itimekeep.test-app.link/temp-matters">Temporary Matters</a> (available in 20.1)
 
 
 # Available quick links to test (PRODUCTION)
@@ -71,3 +71,5 @@ title: Link tests
 - <a href="https://itimekeep.app.link/mytime?matter=34">My Time filtered by Matter 34</a>
 - <a href="https://itimekeep.app.link/submit-drafts">Submit Drafts</a>
 - <a href="https://itimekeep.app.link/my-assistants">My Assistants</a>
+- <a href="https://itimekeep.app.link/myshortcuts">My Shortcuts</a>
+- <a href="https://itimekeep.app.link/temp-matters">Temporary Matters</a> (available in 20.1)
